@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+
+html {
+  background-color: #f9f9f9;
+}
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: 'Cousine', monospace;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #566b78;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.mainImage {
+  height: 8em;
+  border: 2px solid #333;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+}
