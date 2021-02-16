@@ -8,12 +8,14 @@ body {
   max-width: 50em;
   font-family: 'Cousine', monospace;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding: 3em 1em;
   color: #566b78;
 }
 
-h2 {
-  margin-top: 1em;
+h3 {
+  color: #555;
+  margin-bottom: 0em;
+  font-size: 1.7em;
 }
 
 h1,
@@ -35,13 +37,21 @@ ul {
   list-style-type: circle;
 }
 
+.title {
+  margin: .7em 0em 0em .7em;
+}
+
+.desc {
+  margin: 0em;
+}
+
 .mainImage {
   height: 8em;
-  border: 2px solid #333;
   image-rendering: -moz-crisp-edges;
   image-rendering: -webkit-crisp-edges;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .center {
@@ -49,4 +59,28 @@ ul {
   text-align: center;
   margin-left: auto;
   margin-right: auto
+}
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.videoDiv {
+  margin: 0em 0 1.5em 0;
+}
+
+video {
+  width: 20em;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.bigVideo {
+  display: block;
+  width: max(65%,28em);
+  margin: auto;
 }
