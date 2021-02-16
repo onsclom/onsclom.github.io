@@ -81,6 +81,6 @@ video {
 
 .bigVideo {
   display: block;
-  width: max(65%,28em);
+  width: max(65%,20);
   margin: auto;
 }
