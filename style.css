@@ -46,7 +46,7 @@ ul {
 }
 
 .mainImage {
-  height: 8em;
+  height: 12em;
   image-rendering: -moz-crisp-edges;
   image-rendering: -webkit-crisp-edges;
   image-rendering: pixelated;
